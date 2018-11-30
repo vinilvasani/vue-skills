@@ -52,4 +52,11 @@ nav a {
   font-weight: bold;
   margin-right: 15px;
 }
+
+@media only screen and (max-width: 600px) {
+  #app{
+    width: 80%;
+  }
+} 
+
 </style>
