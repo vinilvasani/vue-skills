@@ -12,6 +12,12 @@ export default {
         return {
             url_name: this.$route.params.name
         }
+    },
+    watch: {
+       '$route.params.name' (nVal, cVal){
+           console.log(nVal, cVal);
+           this.url_name = nVal;
+        }
     }
 }
 </script>
